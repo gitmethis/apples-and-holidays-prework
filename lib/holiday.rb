@@ -48,9 +48,9 @@ def all_winter_holiday_supplies(holiday_hash)
   arr = []
   holiday_hash[:winter].each{
      |key,value|
-  value.each{
-    |value|
-    arr.push(value)
+      value.each{
+        |value|
+        arr.push(value)
   }
   }
   arr
